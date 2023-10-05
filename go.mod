@@ -1,4 +1,4 @@
-module github.com/gofiber/fiber/v2
+module github.com/hakantaskin/fiber
 
 go 1.20
 
