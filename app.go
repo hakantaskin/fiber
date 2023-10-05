@@ -397,6 +397,8 @@ type Config struct {
 	//
 	// Optional. Default: false
 	EnableSplittingOnParsers bool `json:"enable_splitting_on_parsers"`
+
+	KeepHijackedConns bool `json:"keep_hijacked_conns"`
 }
 
 // Static defines configuration options when defining static assets.
@@ -1024,6 +1026,7 @@ func (app *App) init() *App {
 	app.server.ReduceMemoryUsage = app.config.ReduceMemoryUsage
 	app.server.StreamRequestBody = app.config.StreamRequestBody
 	app.server.DisablePreParseMultipartForm = app.config.DisablePreParseMultipartForm
+	app.server.KeepHijackedConns = app.config.KeepHijackedConns
 
 	// unlock application
 	app.mutex.Unlock()
