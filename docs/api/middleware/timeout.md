@@ -36,8 +36,8 @@ Import the middleware package that is part of the Fiber web framework
 
 ```go
 import (
-  "github.com/gofiber/fiber/v2"
-  "github.com/gofiber/fiber/v2/middleware/timeout"
+  "github.com/hakantaskin/fiber"
+  "github.com/hakantaskin/fiber/middleware/timeout"
 )
 ```
 

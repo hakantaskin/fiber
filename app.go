@@ -23,8 +23,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/gofiber/fiber/v2/log"
-	"github.com/gofiber/fiber/v2/utils"
+	"github.com/hakantaskin/fiber/log"
+	"github.com/hakantaskin/fiber/utils"
 
 	"github.com/valyala/fasthttp"
 )

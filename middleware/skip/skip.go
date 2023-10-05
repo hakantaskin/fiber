@@ -1,7 +1,7 @@
 package skip
 
 import (
-	"github.com/gofiber/fiber/v2"
+	"github.com/hakantaskin/fiber"
 )
 
 // New creates a middleware handler which skips the wrapped handler

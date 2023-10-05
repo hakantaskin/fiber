@@ -3,7 +3,7 @@ package expvar
 import (
 	"strings"
 
-	"github.com/gofiber/fiber/v2"
+	"github.com/hakantaskin/fiber"
 
 	"github.com/valyala/fasthttp/expvarhandler"
 )

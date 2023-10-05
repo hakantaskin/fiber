@@ -12,7 +12,7 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/gofiber/fiber/v2/internal/gopsutil/common"
+	"github.com/hakantaskin/fiber/internal/gopsutil/common"
 )
 
 func parseNetstatI(output string) ([]IOCountersStat, error) {

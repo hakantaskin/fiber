@@ -3,7 +3,7 @@ package keyauth
 import (
 	"errors"
 
-	"github.com/gofiber/fiber/v2"
+	"github.com/hakantaskin/fiber"
 )
 
 // Config defines the config for middleware.

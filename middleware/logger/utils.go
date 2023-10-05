@@ -1,7 +1,7 @@
 package logger
 
 import (
-	"github.com/gofiber/fiber/v2"
+	"github.com/hakantaskin/fiber"
 )
 
 func methodColor(method string, colors fiber.Colors) string {

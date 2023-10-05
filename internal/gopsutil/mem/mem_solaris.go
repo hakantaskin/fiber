@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/gofiber/fiber/v2/internal/gopsutil/common"
+	"github.com/hakantaskin/fiber/internal/gopsutil/common"
 )
 
 // VirtualMemory for Solaris is a minimal implementation which only returns

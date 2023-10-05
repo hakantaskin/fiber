@@ -18,8 +18,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gofiber/fiber/v2/internal/tlstest"
-	"github.com/gofiber/fiber/v2/utils"
+	"github.com/hakantaskin/fiber/internal/tlstest"
+	"github.com/hakantaskin/fiber/utils"
 
 	"github.com/valyala/fasthttp/fasthttputil"
 )

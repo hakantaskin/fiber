@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/gofiber/fiber/v2"
+	"github.com/hakantaskin/fiber"
 )
 
 // New creates a new middleware handler

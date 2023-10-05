@@ -6,7 +6,7 @@ package mem
 import (
 	"context"
 
-	"github.com/gofiber/fiber/v2/internal/gopsutil/common"
+	"github.com/hakantaskin/fiber/internal/gopsutil/common"
 )
 
 func VirtualMemory() (*VirtualMemoryStat, error) {

@@ -6,12 +6,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/gofiber/fiber/v2"
-	"github.com/gofiber/fiber/v2/internal/gopsutil/cpu"
-	"github.com/gofiber/fiber/v2/internal/gopsutil/load"
-	"github.com/gofiber/fiber/v2/internal/gopsutil/mem"
-	"github.com/gofiber/fiber/v2/internal/gopsutil/net"
-	"github.com/gofiber/fiber/v2/internal/gopsutil/process"
+	"github.com/hakantaskin/fiber"
+	"github.com/hakantaskin/fiber/internal/gopsutil/cpu"
+	"github.com/hakantaskin/fiber/internal/gopsutil/load"
+	"github.com/hakantaskin/fiber/internal/gopsutil/mem"
+	"github.com/hakantaskin/fiber/internal/gopsutil/net"
+	"github.com/hakantaskin/fiber/internal/gopsutil/process"
 )
 
 type stats struct {

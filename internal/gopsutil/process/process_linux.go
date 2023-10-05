@@ -15,9 +15,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/gofiber/fiber/v2/internal/gopsutil/common"
-	"github.com/gofiber/fiber/v2/internal/gopsutil/cpu"
-	"github.com/gofiber/fiber/v2/internal/gopsutil/net"
+	"github.com/hakantaskin/fiber/internal/gopsutil/common"
+	"github.com/hakantaskin/fiber/internal/gopsutil/cpu"
+	"github.com/hakantaskin/fiber/internal/gopsutil/net"
 	"golang.org/x/sys/unix"
 )
 

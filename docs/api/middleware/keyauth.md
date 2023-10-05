@@ -20,8 +20,8 @@ package main
 import (
 	"crypto/sha256"
 	"crypto/subtle"
-	"github.com/gofiber/fiber/v2"
-	"github.com/gofiber/fiber/v2/middleware/keyauth"
+	"github.com/hakantaskin/fiber"
+	"github.com/hakantaskin/fiber/middleware/keyauth"
 )
 
 var (
@@ -82,8 +82,8 @@ package main
 import (
 	"crypto/sha256"
 	"crypto/subtle"
-	"github.com/gofiber/fiber/v2"
-	"github.com/gofiber/fiber/v2/middleware/keyauth"
+	"github.com/hakantaskin/fiber"
+	"github.com/hakantaskin/fiber/middleware/keyauth"
 	"regexp"
 	"strings"
 )
@@ -164,8 +164,8 @@ package main
 import (
 	"crypto/sha256"
 	"crypto/subtle"
-	"github.com/gofiber/fiber/v2"
-	"github.com/gofiber/fiber/v2/middleware/keyauth"
+	"github.com/hakantaskin/fiber"
+	"github.com/hakantaskin/fiber/middleware/keyauth"
 )
 
 const (

@@ -18,8 +18,8 @@ Import the middleware package that is part of the Fiber web framework
 
 ```go
 import (
-  "github.com/gofiber/fiber/v2"
-  expvarmw "github.com/gofiber/fiber/v2/middleware/expvar"
+  "github.com/hakantaskin/fiber"
+  expvarmw "github.com/hakantaskin/fiber/middleware/expvar"
 )
 ```
 

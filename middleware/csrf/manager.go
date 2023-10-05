@@ -4,9 +4,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/gofiber/fiber/v2"
-	"github.com/gofiber/fiber/v2/internal/memory"
-	"github.com/gofiber/fiber/v2/utils"
+	"github.com/hakantaskin/fiber"
+	"github.com/hakantaskin/fiber/internal/memory"
+	"github.com/hakantaskin/fiber/utils"
 )
 
 // go:generate msgp

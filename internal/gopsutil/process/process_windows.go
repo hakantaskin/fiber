@@ -12,9 +12,9 @@ import (
 	"syscall"
 	"unsafe"
 
-	"github.com/gofiber/fiber/v2/internal/gopsutil/common"
-	cpu "github.com/gofiber/fiber/v2/internal/gopsutil/cpu"
-	net "github.com/gofiber/fiber/v2/internal/gopsutil/net"
+	"github.com/hakantaskin/fiber/internal/gopsutil/common"
+	cpu "github.com/hakantaskin/fiber/internal/gopsutil/cpu"
+	net "github.com/hakantaskin/fiber/internal/gopsutil/net"
 	"golang.org/x/sys/windows"
 )
 

@@ -35,8 +35,8 @@ package main
 import (
     "log"
 
-    "github.com/gofiber/fiber/v2"
-    "github.com/gofiber/fiber/v2/middleware/recover"
+    "github.com/hakantaskin/fiber"
+    "github.com/hakantaskin/fiber/middleware/recover"
 )
 
 func main() {

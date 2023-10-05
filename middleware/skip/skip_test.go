@@ -4,9 +4,9 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/gofiber/fiber/v2"
-	"github.com/gofiber/fiber/v2/middleware/skip"
-	"github.com/gofiber/fiber/v2/utils"
+	"github.com/hakantaskin/fiber"
+	"github.com/hakantaskin/fiber/middleware/skip"
+	"github.com/hakantaskin/fiber/utils"
 )
 
 // go test -run Test_Skip

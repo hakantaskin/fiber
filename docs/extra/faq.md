@@ -107,8 +107,8 @@ package main
 import (
 	"log"
 
-	"github.com/gofiber/fiber/v2"
-	"github.com/gofiber/fiber/v2/middleware/logger"
+	"github.com/hakantaskin/fiber"
+	"github.com/hakantaskin/fiber/middleware/logger"
 )
 
 type Host struct {

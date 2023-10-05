@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/gofiber/fiber/v2/internal/gopsutil/common"
+	"github.com/hakantaskin/fiber/internal/gopsutil/common"
 )
 
 func IOCounters(pernic bool) ([]IOCountersStat, error) {

@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/gofiber/fiber/v2"
-	"github.com/gofiber/fiber/v2/internal/storage/memory"
-	"github.com/gofiber/fiber/v2/utils"
+	"github.com/hakantaskin/fiber"
+	"github.com/hakantaskin/fiber/internal/storage/memory"
+	"github.com/hakantaskin/fiber/utils"
 
 	"github.com/valyala/fasthttp"
 )

@@ -76,10 +76,10 @@
     <img height="20px" src="https://img.shields.io/badge/PL-flag.svg?color=555555&style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjgwIDgwMCI+DQo8cGF0aCBmaWxsPSIjZTllOGU3IiBkPSJtMCwwaDEyODB2NDAwaC0xMjgweiIvPg0KPHBhdGggZmlsbD0iI2Q0MjEzZCIgZD0ibTAsNDAwaDEyODB2NDAwaC0xMjgweiIvPg0KPC9zdmc+DQo=">
   </a>
   <br>
-  <a href="https://pkg.go.dev/github.com/gofiber/fiber/v2#pkg-overview">
+  <a href="https://pkg.go.dev/github.com/hakantaskin/fiber#pkg-overview">
     <img src="https://img.shields.io/badge/%F0%9F%93%9A%20godoc-pkg-00ACD7.svg?color=00ACD7&style=flat-square">
   </a>
-  <a href="https://goreportcard.com/report/github.com/gofiber/fiber/v2">
+  <a href="https://goreportcard.com/report/github.com/hakantaskin/fiber">
     <img src="https://img.shields.io/badge/%F0%9F%93%9D%20goreport-A%2B-75C46B?style=flat-square">
   </a>
   <a href="https://gocover.io/github.com/gofiber/fiber">
@@ -112,7 +112,7 @@
 ```go
 package main
 
-import "github.com/gofiber/fiber/v2"
+import "github.com/hakantaskin/fiber"
 
 func main() {
     app := fiber.New()
@@ -145,7 +145,7 @@ func main() {
 команди [`go get`](https://pkg.go.dev/cmd/go/#hdr-Add_dependencies_to_current_module_and_install_them):
 
 ```bash
-go get -u github.com/gofiber/fiber/v2
+go get -u github.com/hakantaskin/fiber
 ```
 
 ## 🎯 Особливості
@@ -318,7 +318,7 @@ Fiber за умовчанням використовує [html/template](https:/
 package main
 
 import (
-    "github.com/gofiber/fiber/v2"
+    "github.com/hakantaskin/fiber"
     "github.com/gofiber/template/pug"
 )
 
@@ -384,8 +384,8 @@ package main
 import (
     "log"
 
-    "github.com/gofiber/fiber/v2"
-    "github.com/gofiber/fiber/v2/middleware/logger"
+    "github.com/hakantaskin/fiber"
+    "github.com/hakantaskin/fiber/middleware/logger"
 )
 
 func main() {
@@ -407,8 +407,8 @@ func main() {
 import (
     "log"
 
-    "github.com/gofiber/fiber/v2"
-    "github.com/gofiber/fiber/v2/middleware/cors"
+    "github.com/hakantaskin/fiber"
+    "github.com/hakantaskin/fiber/middleware/cors"
 )
 
 func main() {
@@ -492,8 +492,8 @@ func main() {
 
 ```go
 import (
-    "github.com/gofiber/fiber/v2"
-    "github.com/gofiber/fiber/v2/middleware/websocket"
+    "github.com/hakantaskin/fiber"
+    "github.com/hakantaskin/fiber/middleware/websocket"
 )
 
 func main() {
@@ -526,7 +526,7 @@ func main() {
 
 ```go
 import (
-    "github.com/gofiber/fiber/v2"
+    "github.com/hakantaskin/fiber"
     "github.com/valyala/fasthttp"
 )
 
@@ -567,8 +567,8 @@ func main() {
 
 ```go
 import (
-    "github.com/gofiber/fiber/v2"
-    "github.com/gofiber/fiber/v2/middleware/recover"
+    "github.com/hakantaskin/fiber"
+    "github.com/hakantaskin/fiber/middleware/recover"
 )
 
 func main() {
@@ -592,8 +592,8 @@ func main() {
 
 ```go
 import (
-    "github.com/gofiber/fiber/v2"
-    "github.com/gofiber/fiber/v2/middleware/recover"
+    "github.com/hakantaskin/fiber"
+    "github.com/hakantaskin/fiber/middleware/recover"
 )
 
 func main() {

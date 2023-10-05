@@ -5,8 +5,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/gofiber/fiber/v2"
-	"github.com/gofiber/fiber/v2/utils"
+	"github.com/hakantaskin/fiber"
+	"github.com/hakantaskin/fiber/utils"
 
 	"github.com/valyala/fasthttp"
 )
